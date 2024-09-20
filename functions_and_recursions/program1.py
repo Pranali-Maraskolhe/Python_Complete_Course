@@ -1,14 +1,18 @@
+# 1. Write a program using functions to find greatest of three numbers.
 
-# Function Definition
-def avg():
-    a = int(input("Enter a number: "))
-    b = int(input("Enter a number: "))
-    c = int(input("Enter a number: "))
+def greatest_num(num1, num2, num3):
+    
+    if(num1>num2 and num1>num3):
+        return num1
+    elif(num2>num1 and num2>num3):
+        return num2
+    else:
+        return num3
+    
 
-    res = (a+b+c)/3
-    print("Average is: ", res)
 
-# Function Call
-avg()
-avg()
-avg()
+num1 = int(input("Enter number 1 = "))
+num2 = int(input("Enter number 2 = "))
+num3 = int(input("Enter number 3 = "))
+
+print(f"The greatest number is = {greatest_num(num1,num2,num3)}")
