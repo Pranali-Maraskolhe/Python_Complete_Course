@@ -6,4 +6,4 @@ def  cel_farh(n):
 
 n = int(input("Enter number to convert celsius to fahrenheit = "))
 
-print(f"The result in Fahrenheit is = {int(cel_farh(n))}")
+print(f"The result in Fahrenheit is = {round(cel_farh(n), 2)}")
