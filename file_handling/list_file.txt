@@ -1,0 +1,4 @@
+All ###### are not cats 
+All cats are not ###
+All ### are not ######
+All ##### are not ######
