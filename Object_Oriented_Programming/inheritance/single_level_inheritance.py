@@ -14,4 +14,6 @@ class Programmer(Employee):
 a = Employee()
 b = Programmer()
 
-print(a.company, b.company)
+print(b.company)
+b.show()
+b.showLanguage()  # Output: Language is Python
