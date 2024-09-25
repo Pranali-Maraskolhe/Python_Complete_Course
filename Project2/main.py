@@ -13,12 +13,13 @@ a = -1
 guess = 0
 
 while(a != n):
-    guess += 1
 
     a = int(input("Guess the Number: "))
     if(a > n):
         print("Lower Number Please")
-    else:
+        guess += 1
+    elif(a < n):
         print("Higher Number Please")
+        guess += 1
 
 print(f"You have guessed the number {n} correctly in {guess} attempts")
